@@ -1,0 +1,13 @@
+﻿  Hamgine.cpp
+C:\Users\boldi\source\repos\Hamgine\Hamgine\Hamgine.cpp(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+Hamgine.obj : error LNK2005: "void __cdecl Draw(void)" (?Draw@@YAXXZ) already defined in flappy_bird.obj
+Hamgine.obj : error LNK2005: "class entity __cdecl createEntity(struct Vector2,struct SDL_Surface *)" (?createEntity@@YA?AVentity@@UVector2@@PEAUSDL_Surface@@@Z) already defined in flappy_bird.obj
+Hamgine.obj : error LNK2005: "int __cdecl createWindow(char const *,int,int)" (?createWindow@@YAHPEBDHH@Z) already defined in flappy_bird.obj
+Hamgine.obj : error LNK2005: main already defined in flappy_bird.obj
+Hamgine.obj : error LNK2005: "int entityCount" (?entityCount@@3HA) already defined in flappy_bird.obj
+Hamgine.obj : error LNK2005: "struct SDL_Surface * screen" (?screen@@3PEAUSDL_Surface@@EA) already defined in flappy_bird.obj
+Hamgine.obj : error LNK2005: "struct SDL_Window * window" (?window@@3PEAUSDL_Window@@EA) already defined in flappy_bird.obj
+Hamgine.obj : error LNK2005: "struct SDL_Renderer * renderer" (?renderer@@3PEAUSDL_Renderer@@EA) already defined in flappy_bird.obj
+Hamgine.obj : error LNK2005: "class entity * entities" (?entities@@3PEAVentity@@EA) already defined in flappy_bird.obj
+Hamgine.obj : error LNK2005: "struct SDL_Surface * image" (?image@@3PEAUSDL_Surface@@EA) already defined in flappy_bird.obj
+C:\Users\boldi\source\repos\Hamgine\x64\Debug\Hamgine.exe : fatal error LNK1169: one or more multiply defined symbols found
